@@ -1,12 +1,15 @@
-.mountain-showing {
+#initially-showing {
   display: none;
 }
-p {
+#anotha-one-showing {
+  display: none;
+}
+.clickable {
   cursor: pointer;
   color: #0088cc;
 }
 
-p:hover {
+.clickable:hover {
   text-decoration: underline;
 }
 
@@ -15,4 +18,12 @@ img {
   max-length: 500px;
   length: auto;
   width: auto;
+}
+.clicka {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clicka:hover {
+  text-decoration: underline;
 }

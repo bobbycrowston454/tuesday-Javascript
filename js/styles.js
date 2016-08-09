@@ -1,6 +1,10 @@
 $(document).ready(function() {
-  $("p").click(function() {
-    $(".mountain-showing").toggle();
-    $(".mountain-hide").toggle();
+  $(".clickable").click(function() {
+    $("#initially-showing").toggle();
+    $("#initially-hidden").toggle();
   });
+  $(".clicka").click(function() {
+    $("#anotha-one-showing").fadeIn(1000);
+
+   });
 });
