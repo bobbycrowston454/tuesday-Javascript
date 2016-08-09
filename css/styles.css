@@ -1,0 +1,18 @@
+.mountain-showing {
+  display: none;
+}
+p {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 500px;
+  max-length: 500px;
+  length: auto;
+  width: auto;
+}
